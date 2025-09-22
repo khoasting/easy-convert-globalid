@@ -9,7 +9,7 @@
     "vercel-build": "echo 'Build step completed'"
   },
   "engines": {
-    "node": "18.x"
+    "node": "22.x"
   },
   "dependencies": {
     "graphql": "^16.8.1",
