@@ -2,10 +2,14 @@
   "name": "graphql-relay-demo",
   "version": "1.0.0",
   "description": "Demo of graphql-relay global ID functions",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "dev": "node index.js"
+    "dev": "node server.js",
+    "vercel-build": "echo 'Build step completed'"
+  },
+  "engines": {
+    "node": "18.x"
   },
   "dependencies": {
     "graphql": "^16.8.1",
